@@ -11,12 +11,12 @@ module "sandbox" {
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "Owner" = "CloudTeam_SquadA"
   }
 
   change_management_parameters = {
     change_requested_by = "MJ"
-    change_reason       = "Company Demo"
+    change_reason       = "Company Demo Update"
   }
 
   custom_fields = {
